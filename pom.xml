@@ -1468,6 +1468,7 @@
         -->
         <configuration>
           <testFailureIgnore>false</testFailureIgnore>
+          <argLine>-Dlog4j.configuration=</argLine>
           <!-- Excludes integration tests when unit tests are run. -->
           <excludes>
             <exclude>**/*IT.java</exclude>
